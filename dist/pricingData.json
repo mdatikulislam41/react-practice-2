@@ -1,0 +1,63 @@
+[
+  {
+    "id": "basic",
+    "name": "Basic",
+    "price": {
+      "amount": 19,
+      "currency": "USD",
+      "billingPeriod": "monthly"
+    },
+    "description": "For individuals getting started",
+    "features": ["1 user", "5 projects", "5 GB storage", "Email support"],
+    "cta": {
+      "label": "Get Started",
+      "url": "/signup?plan=basic"
+    },
+    "popular": false
+  },
+  {
+    "id": "pro",
+    "name": "Pro",
+    "price": {
+      "amount": 49,
+      "currency": "USD",
+      "billingPeriod": "monthly"
+    },
+    "description": "For growing teams and professionals",
+    "features": [
+      "5 users",
+      "Unlimited projects",
+      "50 GB storage",
+      "Priority email support",
+      "Advanced analytics"
+    ],
+    "cta": {
+      "label": "Start Free Trial",
+      "url": "/signup?plan=pro"
+    },
+    "popular": true
+  },
+  {
+    "id": "enterprise",
+    "name": "Enterprise",
+    "price": {
+      "amount": null,
+      "currency": "USD",
+      "billingPeriod": "custom"
+    },
+    "description": "For large organizations with custom needs",
+    "features": [
+      "Unlimited users",
+      "Unlimited projects",
+      "Unlimited storage",
+      "Dedicated account manager",
+      "24/7 phone and email support",
+      "Custom integrations"
+    ],
+    "cta": {
+      "label": "Contact Sales",
+      "url": "/contact-sales"
+    },
+    "popular": false
+  }
+]
