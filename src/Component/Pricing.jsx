@@ -31,8 +31,10 @@ const Pricing = ({ pricingPromise }) => {
                     Popular choise
                   </div>
                 )}
-                {item.id == "basic" && <div class="h-2 bg-pink-500"></div>}
-                {item.id == "enterprise" && <div class="h-2 bg-gray-800"></div>}
+                {item.id == "basic" && <div className="h-2 bg-pink-500"></div>}
+                {item.id == "enterprise" && (
+                  <div className="h-2 bg-gray-800"></div>
+                )}
                 <div className="flex flex-1 flex-col p-6 pt-8">
                   <div className="mb-12">
                     <div className="mb-2 text-center text-2xl font-bold text-gray-800">

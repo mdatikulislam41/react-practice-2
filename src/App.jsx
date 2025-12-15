@@ -3,7 +3,8 @@ import { Suspense } from "react";
 import "./App.css";
 import Navbar from "./Component/Navbar";
 import Pricing from "./Component/Pricing";
-
+import OrderCount from "./Component/OrderCount";
+import Call from "./Component/Call";
 const pricingPromise = fetch("/pricingData.json").then((res) => res.json());
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       >
         <Pricing pricingPromise={pricingPromise} />
       </Suspense>
+      <OrderCount />
     </>
   );
 }
