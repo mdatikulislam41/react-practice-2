@@ -41,7 +41,7 @@
     "id": "enterprise",
     "name": "Enterprise",
     "price": {
-      "amount": null,
+      "amount": 188,
       "currency": "USD",
       "billingPeriod": "custom"
     },
